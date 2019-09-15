@@ -3,8 +3,8 @@ public class TestaPorta {
 public static void main(String[] args){
 
 	Porta porta = new Porta();
-	porta.abre();
-	porta.fecha();
+	porta.setAbre();
+	porta.setFecha();
 	
 	porta.cor = "Rosa";
 	porta.cor = "Azul";
@@ -15,7 +15,7 @@ public static void main(String[] args){
 	porta.dimensaoY = 75;
 	porta.dimensaoZ = 100;
 	
-	System.out.println("A porta está aberta? " + porta.estaAberta());
+	System.out.println("A porta está aberta? " + porta.isEstaAberta());
 	System.out.println(porta.cor);
 }
 }

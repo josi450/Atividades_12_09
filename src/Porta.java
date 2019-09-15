@@ -1,24 +1,24 @@
 public class Porta {
 
-boolean aberta;
+private boolean aberta;
 String cor;
 double dimensaoX;
 double dimensaoY;
 double dimensaoZ;
 
-void abre() {
+public void setAbre() {
 	aberta = true;
 }
 
-void fecha() {
+public void setFecha() {
 	aberta = false;
 }
 
-void pinta(String s) {
+public void getPinta(String s) {
 	this.cor += s;
 }
 
-boolean estaAberta() {
+public boolean isEstaAberta() {
 	return aberta;
 
 }

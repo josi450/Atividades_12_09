@@ -4,7 +4,7 @@ public class TestaPessoa {
         Pessoa pessoa1 =  new Pessoa();     
         pessoa1.nome = "Josiane";    
         pessoa1.idade = 20;     
-        pessoa1.fazAniversario(); 
+        pessoa1.setFazAniversario(); 
         
    
                        

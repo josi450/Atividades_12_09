@@ -1,16 +1,18 @@
 
 public class Casa {
  
-    String cor;
-    Boolean porta1, porta2, porta3;
-    int total;
+    private String cor;
+    Boolean porta1;
+    Boolean porta2;
+    Boolean porta3;
+    private int total;
     
-    void pinta(String s) {        
+    public void setPinta(String s) {        
         cor = s;
         System.out.println("A cor da casa é "+ cor);
     }
     
-    int quantasPortasEstaoAbertas() {
+    public int getQuantasPortasEstaoAbertas() {
        if (porta1 == true) {
            int p1 = 1;
            total = p1;

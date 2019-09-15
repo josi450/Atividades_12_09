@@ -4,10 +4,11 @@ public class Aluno {
     String cpf;
     Data dataDeNascimento;
     
-    String imprimir (){
+    
+    public String getImprimir (){
         String aluno= this.nome + "\n"
                 + this.cpf + "\n"
-                +this.dataDeNascimento.imprimir();
+                +this.dataDeNascimento.getImprimir();
         return aluno;
     }
     
